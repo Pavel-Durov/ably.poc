@@ -15,6 +15,7 @@
   "author": "pavel@p3ld3v.dev",
   "license": "ISC",
   "dependencies": {
+    "ably": "^1.2.47",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1"
   },
@@ -22,6 +23,7 @@
     "@biomejs/biome": "1.1.2",
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
+    "amqp-consume-cli": "^1.1.2",
     "husky": "^8.0.3",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2"

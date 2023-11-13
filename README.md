@@ -6,10 +6,21 @@
 $ npm install
 ```
 
+## Environment
+
+Define the following env variables (.envrc or other way)
+
+```shell
+export API_KEY=?
+export HOST=?
+export PORT=?
+export QUEUE_NAME=?
+```
+
 ## Run
 
 ```shell
-$ tsx src/index.ts
+$ tsx src/channels.ts
 ```
 
 ## Build
