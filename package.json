@@ -1,0 +1,29 @@
+{
+  "name": "project.template.ts",
+  "version": "0.0.1",
+  "description": "Template for Typescript projects",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest ./test",
+    "start": "tsx ./src/index.ts",
+    "lint:fix": "biome format ./src/**  ./test/** --write",
+    "lint": "biome format ./src/**  ./test/**",
+    "build": "tsc",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "author": "pavel@p3ld3v.dev",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.1.2",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
